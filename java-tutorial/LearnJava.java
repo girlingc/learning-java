@@ -6,6 +6,7 @@ public class LearnJava {
     Animal a = new Animal();
     String dog = a.iAmDog();
     System.out.println(dog);
+    a.doStuff();
   }
 
   public static String addExclamationPoint(String s) {
