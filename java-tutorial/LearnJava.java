@@ -3,6 +3,9 @@ public class LearnJava {
     String name = "Christian";
     String exclaim = addExclamationPoint(name);
     System.out.println(exclaim);
+    Animal a = new Animal();
+    String dog = a.iAmDog();
+    System.out.println(dog);
   }
 
   public static String addExclamationPoint(String s) {
