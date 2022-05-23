@@ -1,4 +1,4 @@
-public class A  
+public class Variables  
 {  
     static int m=100; 
     void method()  
