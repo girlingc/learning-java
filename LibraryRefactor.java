@@ -5,7 +5,7 @@ public class LibraryRefactor {
   private String artist;
   private String album;
 
-  public Track(
+  public void Track(
     final String id,
     final String name,
     final String artist,
@@ -16,9 +16,15 @@ public class LibraryRefactor {
     this.artist = artist;
     this.album = album;
   }
+
   public String getTrackInfo() {
     return this.id + this.name + this.artist + this.album;
   }
+
+  final Track t01 = new Track(
+    "t01",
+    "Code Monkey",
+    "Jonathon Coulton",
+    "Thing a Week Three"
+  );
 }
-final Track t01 = ("t01", "Code Monkey", "Jonathon Coulton", "Thing a Week Three");
-track.getTrackInfo();
